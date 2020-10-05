@@ -1,0 +1,44 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+issueTrackerURL="https://github.com/Darkhax-Minecraft/BotanyTrees/issues"
+license="LGPL v2.1"
+
+[[mods]]
+modId="botanytrees"
+updateJSONURL="https://updates.blamejared.com/get?n=botanytrees&gv=1.16.3"
+version="${version}"
+displayName="${mod_name}"
+displayURL="${mod_download}"
+credits="${mod_credits}"
+authors="${mod_authors}"
+description='''
+${mod_description}
+'''
+
+[[dependencies.botanytrees]]
+    modId="forge"
+    mandatory=true
+    versionRange="[34,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.botanytrees]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3]"
+    ordering="NONE"
+    side="BOTH"
+    
+[[dependencies.botanytrees]]
+    modId="bookshelf"
+    mandatory=true
+    versionRange="[8,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.botanytrees]]
+    modId="botanypots"
+    mandatory=true
+    versionRange="[5,)"
+    ordering="AFTER"
+    side="BOTH"
