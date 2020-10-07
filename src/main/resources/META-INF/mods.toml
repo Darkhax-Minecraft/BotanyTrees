@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[34,)"
+loaderVersion="[32,)"
 issueTrackerURL="https://github.com/Darkhax-Minecraft/BotanyTrees/issues"
 license="LGPL v2.1"
 
@@ -18,14 +18,14 @@ ${mod_description}
 [[dependencies.botanytrees]]
     modId="forge"
     mandatory=true
-    versionRange="[34,)"
+    versionRange="[32,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.botanytrees]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.3]"
+    versionRange="[1.16,]"
     ordering="NONE"
     side="BOTH"
     
