@@ -38,6 +38,14 @@
       "maxRolls": 2
     },
     {
+      "chance": 0.75,
+      "output": {
+        "item": "minecraft:apple"
+      },
+    "minRolls": 1,
+    "maxRolls": 1
+    },
+    {
       "chance": 0.05,
       "output": {
         "item": "byg:orchard_sapling"

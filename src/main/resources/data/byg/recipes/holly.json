@@ -38,6 +38,22 @@
       "maxRolls": 2
     },
     {
+      "chance": 0.90,
+      "output": {
+        "item": "byg:holly_berries"
+      },
+    "minRolls": 1,
+    "maxRolls": 1
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "byg:holly_berries"
+      },
+    "minRolls": 1,
+    "maxRolls": 2
+    },
+    {
       "chance": 0.05,
       "output": {
         "item": "byg:holly_sapling"
