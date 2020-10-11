@@ -96,8 +96,8 @@ dependencies {
 
     minecraft "net.minecraftforge:forge:${forge_version}"
     
-    compile fg.deobf("net.darkhax.bookshelf:Bookshelf-1.16.3:${bookshelf_version}")
-	compile fg.deobf("net.darkhax.botanybots:BotanyPots-1.16.3:${botanypots_version}")
+    compile fg.deobf("net.darkhax.bookshelf:Bookshelf-1.15.2:${bookshelf_version}")
+	compile fg.deobf("net.darkhax.botanybots:BotanyPots-1.15.2:${botanypots_version}")
 }
 
 jar {
