@@ -3,7 +3,7 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "byg"
+      "modid": "terraqueous"
     },
     {
       "type": "forge:item_exists",
