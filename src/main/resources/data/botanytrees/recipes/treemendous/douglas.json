@@ -1,57 +1,57 @@
 {
-  "type": "botanypots:crop",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "treemendous"
-    },
-    {
-      "type": "forge:item_exists",
-      "item": "treemendous:douglas_sapling"
-    }
-  ],
-  "seed": {
-    "item": "treemendous:douglas_sapling"
-  },
-  "categories": [
-    "dirt"
-  ],
-  "growthTicks": 2400,
-  "display": {
-    "block": "treemendous:douglas_sapling"
-  },
-  "results": [
-    {
-      "chance": 0.5,
-      "output": {
-        "item": "treemendous:douglas_log"
-      },
-      "minRolls": 1,
-      "maxRolls": 1
-    },
-    {
-      "chance": 0.1,
-      "output": {
-        "item": "minecraft:stick"
-      },
-      "minRolls": 1,
-      "maxRolls": 2
-    },
-    {
-      "chance": 0.05,
-      "output": {
+    "type": "botanypots:crop",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "treemendous"
+        },
+        {
+            "type": "forge:item_exists",
+            "item": "treemendous:douglas_sapling"
+        }
+    ],
+    "seed": {
         "item": "treemendous:douglas_sapling"
-      },
-      "minRolls": 1,
-      "maxRolls": 2
     },
-    {
-      "chance": 0.75,
-      "output": {
-        "item": "minecraft:apple"
-      },
-      "minRolls": 1,
-      "maxRolls": 4
-    }
-  ]
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "block": "treemendous:douglas_sapling"
+    },
+    "results": [
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "treemendous:douglas_log"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.1,
+            "output": {
+                "item": "minecraft:stick"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "treemendous:douglas_sapling"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.75,
+            "output": {
+                "item": "minecraft:apple"
+            },
+            "minRolls": 1,
+            "maxRolls": 4
+        }
+    ]
 }
