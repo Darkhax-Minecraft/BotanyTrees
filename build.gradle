@@ -8,7 +8,7 @@ buildscript {
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
         classpath 'gradle.plugin.com.matthewprenger:CurseGradle:1.4.0'
-		classpath group: 'com.diluv.schoomp', name: 'Schoomp', version: '1.1.0'
+        classpath group: 'com.diluv.schoomp', name: 'Schoomp', version: '1.1.0'
     }
 }
 
@@ -43,17 +43,17 @@ sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = co
 minecraft {
 
     mappings channel: 'snapshot', version: "${mcp_version}".toString()
-	
+    
     if (project.hasProperty('mod_at')) {
     
         accessTransformer = file(findProperty('mod_at'))
     }
-	
+    
     runs {
         client {
-		
+        
             workingDirectory project.file('run')
-			taskName "${mod_name} Client"
+            taskName "${mod_name} Client"
 
             mods {
                 cauldronrecipes {
@@ -64,8 +64,8 @@ minecraft {
 
         server {
             workingDirectory project.file('run')
-			taskName "${mod_name} Server"
-			
+            taskName "${mod_name} Server"
+            
             mods {
                 cauldronrecipes {
                     source sourceSets.main
@@ -78,19 +78,9 @@ minecraft {
 repositories {
 
     maven {
-        name = 'MMD Maven (Bookshelf)'
-        url 'https://maven.mcmoddev.com'
-    }
 
-    maven {
-        name = 'Progwml6 maven (JEI)'
-        url = 'https://dvs1.progwml6.com/files/maven/'
-	}
-
-    maven {
-        name = 'Jared`s Maven (CRT)'
         url 'https://maven.blamejared.com'
-	}
+    }
 }
 
 dependencies {
@@ -98,7 +88,7 @@ dependencies {
     minecraft "net.minecraftforge:forge:${forge_version}"
     
     compile fg.deobf("net.darkhax.bookshelf:Bookshelf-1.16.4:${bookshelf_version}")
-	compile fg.deobf("net.darkhax.botanybots:BotanyPots-1.16.4:${botanypots_version}")
+    compile fg.deobf("net.darkhax.botanybots:BotanyPots-1.16.4:${botanypots_version}")
 }
 
 jar {
