@@ -4,10 +4,6 @@
         {
             "type": "forge:mod_loaded",
             "modid": "autumnity"
-        },
-        {
-            "type": "forge:item_exists",
-            "item": "autumnity:maple_sapling"
         }
     ],
     "seed": {
