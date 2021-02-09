@@ -4,10 +4,6 @@
         {
             "type": "forge:mod_loaded",
             "modid": "autumnity"
-        },
-        {
-            "type": "forge:item_exists",
-            "item": "autumnity:red_maple_sapling"
         }
     ],
     "seed": {
@@ -24,7 +20,7 @@
         {
             "chance": 0.5,
             "output": {
-                "item": "autumnity:red_maple_log"
+                "item": "autumnity:maple_log"
             },
             "minRolls": 1,
             "maxRolls": 1
