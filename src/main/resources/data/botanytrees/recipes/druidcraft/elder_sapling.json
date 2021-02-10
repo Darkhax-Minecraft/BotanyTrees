@@ -32,7 +32,7 @@
         {
             "chance": 0.1,
             "output": {
-                "item": "minecraft:stick"
+                "item": "druidcraft:elderflower"
             },
             "minRolls": 1,
             "maxRolls": 2
