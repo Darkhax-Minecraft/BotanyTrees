@@ -48,7 +48,7 @@
         {
             "chance": 0.75,
             "output": {
-                "item": "pamhc2trees:mapleitem"
+                "item": "pamhc2trees:maplesyrupitem"
             },
             "minRolls": 1,
             "maxRolls": 4
