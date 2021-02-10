@@ -7,18 +7,18 @@
         },
         {
             "type": "forge:item_exists",
-            "item": "pamhc2trees:olice_sapling"
+            "item": "pamhc2trees:olive_sapling"
         }
     ],
     "seed": {
-        "item": "pamhc2trees:olice_sapling"
+        "item": "pamhc2trees:olive_sapling"
     },
     "categories": [
         "dirt"
     ],
     "growthTicks": 2400,
     "display": {
-        "block": "pamhc2trees:olice_sapling"
+        "block": "pamhc2trees:olive_sapling"
     },
     "results": [
         {
@@ -48,7 +48,7 @@
         {
             "chance": 0.75,
             "output": {
-                "item": "pamhc2trees:oliceitem"
+                "item": "pamhc2trees:oliveitem"
             },
             "minRolls": 1,
             "maxRolls": 4
