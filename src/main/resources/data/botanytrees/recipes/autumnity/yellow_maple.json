@@ -24,7 +24,7 @@
         {
             "chance": 0.5,
             "output": {
-                "item": "autumnity:yellow_maple_log"
+                "item": "autumnity:maple_log"
             },
             "minRolls": 1,
             "maxRolls": 1
