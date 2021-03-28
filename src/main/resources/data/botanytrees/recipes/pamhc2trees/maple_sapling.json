@@ -18,13 +18,13 @@
     ],
     "growthTicks": 2400,
     "display": {
-        "block": "pamhc2trees:maplesyrup_sapling"
+        "block": "pamhc2trees:maple_sapling"
     },
     "results": [
         {
             "chance": 0.1,
             "output": {
-                "item": "minecraft:spruce_log"
+                "item": "pamhc2trees:pammaple"
             },
             "minRolls": 1,
             "maxRolls": 1
@@ -40,7 +40,7 @@
         {
             "chance": 0.05,
             "output": {
-                "item": "minecraft:spruce_sapling"
+                "item": "minecraft:maple_sapling"
             },
             "minRolls": 1,
             "maxRolls": 2
