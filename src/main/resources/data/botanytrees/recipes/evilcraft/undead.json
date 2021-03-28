@@ -20,7 +20,7 @@
         {
             "chance": 0.50,
             "output": {
-                "item": "minecraft:undead_log"
+                "item": "evilcraft:undead_log"
             },
             "minRolls": 1,
             "maxRolls": 1
