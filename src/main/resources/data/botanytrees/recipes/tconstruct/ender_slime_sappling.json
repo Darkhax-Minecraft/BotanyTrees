@@ -1,0 +1,49 @@
+{
+    "type": "botanypots:crop",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "tconstruct"
+        },
+        {
+            "type": "forge:item_exists",
+            "item": "tconstruct:sky_slime_sapling"
+        }
+    ],
+    "seed": {
+        "item": "tconstruct:sky_slime_sapling"
+    },
+    "categories": [
+        "slime"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "block": "tconstruct:sky_slime_sapling"
+    },
+    "results": [
+        {
+            "chance": 0.50,
+            "output": {
+                "item": "tconstruct:sky_slime_ball"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.1,
+            "output": {
+                "item": "tconstruct:sky_slime_ball"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "tconstruct:sky_slime_sapling"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        }
+    ]
+}
