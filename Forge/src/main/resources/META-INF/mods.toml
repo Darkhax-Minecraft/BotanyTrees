@@ -38,7 +38,7 @@ ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.${ mod_id }]]
-modId = "bootanypots"
+modId = "botanypots"
 mandatory = true
 versionRange = "[8.0.12,)"
 ordering = "NONE"
