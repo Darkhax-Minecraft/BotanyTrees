@@ -24,10 +24,10 @@
   "depends": {
     "fabricloader": ">=0.13",
     "fabric": "*",
-    "minecraft": "1.18.x",
+    "minecraft": "1.19.x",
     "java": ">=17",
-    "bookshelf": ">=13.0.36",
-    "botanypots": "8.0.12"
+    "bookshelf": ">=16.1.5",
+    "botanypots": ">=9.0.2"
   },
   "custom": {
     "modmenu": {
