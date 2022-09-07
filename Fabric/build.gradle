@@ -119,6 +119,7 @@ task publishCurseForge(type: net.darkhax.curseforgegradle.TaskPublishCurseForge)
     mainFile.changelog = project.ext.mod_changelog
     mainFile.addJavaVersion('Java 17')
     mainFile.addRequirement('bookshelf')
+    mainFile.addRequirement('botany-pots')
     mainFile.addModLoader('Fabric')
     mainFile.addModLoader('Quilt')
 
