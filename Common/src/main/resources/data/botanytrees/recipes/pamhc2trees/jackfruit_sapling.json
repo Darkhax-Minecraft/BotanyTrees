@@ -1,0 +1,61 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "pamhc2trees:jackfruit_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "pamhc2trees:jackfruit_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "pamhc2trees:jackfruit_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "minecraft:jungle_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "pamhc2trees:jackfruititem"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.01,
+      "output": {
+        "item": "minecraft:jungle_sapling"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    },
+    {
+        "chance": 0.001,
+        "output": {
+          "item": "pamhc2trees:jackfruit_sapling"
+        }
+      }
+    ]
+  }
