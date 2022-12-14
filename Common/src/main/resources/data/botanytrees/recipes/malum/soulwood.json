@@ -1,0 +1,53 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "malum:soulwood_growth"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "malum:soulwood_growth"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "malum:soulwood_growth"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "malum:soulwood_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+      },
+      {
+        "chance": 0.25,
+        "output": {
+          "item": "minecraft:stick"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "malum:exposed_soulwood_log"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.01,
+        "output": {
+          "item": "malum:soulwood_growth"
+        }
+      }
+    ]
+  }

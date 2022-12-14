@@ -1,0 +1,62 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "allthemodium:ancient_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "allthemodium:ancient_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "allthemodium:ancient_sapling"
+    },
+    "drops": [
+      {
+        "chance": 0.33,
+        "output": {
+          "item": "allthemodium:ancient_log_0"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+        
+      "chance": 0.20,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.33,
+        "output": {
+          "item": "allthemodium:ancient_log_1"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+      },
+      {
+        "chance": 0.33,
+        "output": {
+          "item": "allthemodium:ancient_log_2"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+      },
+      {
+        "chance": 0.01,
+        "output": {
+          "item": "allthemodium:ancient_sapling"
+        }
+      }
+    ]
+  }

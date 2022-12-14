@@ -1,0 +1,45 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "enhancedfarming:banana_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "enhancedfarming:banana_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "enhancedfarming:banana_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "minecraft:jungle_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+        "chance": 0.20,
+        "output": {
+          "item": "enhancedfarming:banana"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+        "chance": 0.20,
+        "output": {
+          "item": "enhancedfarming:banana_sapling"
+        }
+      }
+    ]
+  }

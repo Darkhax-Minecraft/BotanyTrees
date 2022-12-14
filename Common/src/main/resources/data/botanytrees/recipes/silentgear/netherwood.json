@@ -1,0 +1,53 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "silentgear:netherwood_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "silentgear:netherwood_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "silentgear:netherwood_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "silentgear:netherwood_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+      },
+      {
+        "chance": 0.25,
+        "output": {
+          "item": "silentgear:netherwood_stick"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "silentgear:nether_banana"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+      },
+      {
+        "chance": 0.15,
+        "output": {
+          "item": "silentgear:netherwood_sapling"
+        }
+      }
+    ]
+  }
