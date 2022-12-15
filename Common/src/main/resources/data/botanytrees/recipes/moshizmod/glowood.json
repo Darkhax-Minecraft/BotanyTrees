@@ -9,7 +9,7 @@
     ],
     "type": "botanypots:crop",
     "seed": {
-      "item": "ms:nature/glowood_apling"
+      "item": "ms:nature/glowood_sapling"
     },
     "categories": [
       "netherrack"
