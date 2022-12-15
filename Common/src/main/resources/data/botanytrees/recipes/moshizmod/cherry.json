@@ -3,26 +3,26 @@
       {
         "type": "bookshelf:item_exists",
         "values": [
-          "ms:nature/cherrysapling"
+          "ms:nature/cherry_sapling"
         ]
       }
     ],
     "type": "botanypots:crop",
     "seed": {
-      "item": "ms:nature/cherrysapling"
+      "item": "ms:nature/cherry_sapling"
     },
     "categories": [
       "dirt"
     ],
     "growthTicks": 2400,
     "display": {
-      "block": "ms:nature/cherrysapling"
+      "block": "ms:nature/cherry_sapling"
     },
     "drops": [
       {
         "chance": 1.00,
         "output": {
-          "item": "ms:nature/cherrylog"
+          "item": "ms:nature/cherry_log"
         },
         "minRolls": 2,
         "maxRolls": 4
@@ -38,7 +38,7 @@
     {
         "chance": 0.01,
         "output": {
-          "item": "ms:nature/cherrysapling"
+          "item": "ms:nature/cherry_sapling"
         }
       }
     ]

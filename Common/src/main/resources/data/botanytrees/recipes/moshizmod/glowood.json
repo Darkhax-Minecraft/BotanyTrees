@@ -3,26 +3,26 @@
       {
         "type": "bookshelf:item_exists",
         "values": [
-          "ms:nature/glowsapling"
+          "ms:nature/glowood_sapling"
         ]
       }
     ],
     "type": "botanypots:crop",
     "seed": {
-      "item": "ms:nature/glowsapling"
+      "item": "ms:nature/glowood_apling"
     },
     "categories": [
       "netherrack"
     ],
     "growthTicks": 2400,
     "display": {
-      "block": "ms:nature/glowsapling"
+      "block": "ms:nature/glowood_sapling"
     },
     "drops": [
       {
         "chance": 1.00,
         "output": {
-          "item": "ms:nature/glowoodlog"
+          "item": "ms:nature/glowood_log"
         },
         "minRolls": 2,
         "maxRolls": 4
@@ -38,7 +38,7 @@
     {
         "chance": 0.01,
         "output": {
-          "item": "ms:nature/glowsapling"
+          "item": "ms:nature/glowood_sapling"
         }
       }
     ]
