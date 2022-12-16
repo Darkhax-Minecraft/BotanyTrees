@@ -3,26 +3,26 @@
       {
         "type": "bookshelf:item_exists",
         "values": [
-          "ms:nature/willowsapling"
+          "ms:nature/willow_sapling"
         ]
       }
     ],
     "type": "botanypots:crop",
     "seed": {
-      "item": "ms:nature/willowsapling"
+      "item": "ms:nature/willow_sapling"
     },
     "categories": [
       "dirt"
     ],
     "growthTicks": 2400,
     "display": {
-      "block": "ms:nature/willowsapling"
+      "block": "ms:nature/willow_sapling"
     },
     "drops": [
       {
         "chance": 1.00,
         "output": {
-          "item": "ms:nature/willowlog"
+          "item": "ms:nature/willow_log"
         },
         "minRolls": 2,
         "maxRolls": 4
@@ -38,7 +38,7 @@
     {
         "chance": 0.01,
         "output": {
-          "item": "ms:nature/willowsapling"
+          "item": "ms:nature/willow_sapling"
         }
       }
     ]
