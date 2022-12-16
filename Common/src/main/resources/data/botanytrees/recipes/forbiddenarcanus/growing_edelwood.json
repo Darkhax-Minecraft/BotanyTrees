@@ -1,0 +1,45 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "forbidden_arcanus:growing_edelwood"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "forbidden_arcanus:growing_edelwood"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "forbidden_arcanus:growing_edelwood"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "forbidden_arcanus:edelwood_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+      },
+      {
+        "chance": 0.25,
+        "output": {
+          "item": "forbidden_arcanus:edelwood_branch"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+        "chance": 0.01,
+        "output": {
+          "item": "forbidden_arcanus:growing_edelwood"
+        }
+      }
+    ]
+  }

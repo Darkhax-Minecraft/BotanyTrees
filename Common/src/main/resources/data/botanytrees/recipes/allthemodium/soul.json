@@ -1,0 +1,69 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "allthemodium:soul_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "allthemodium:soul_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "allthemodium:soul_sapling"
+    },
+    "drops": [
+      {
+        "chance": 0.25,
+        "output": {
+          "item": "allthemodium:soul_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.25,
+        "output": {
+          "item": "allthemodium:soul_log_0"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+        "chance": 0.25,
+        "output": {
+          "item": "allthemodium:soul_log_1"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+        "chance": 0.25,
+        "output": {
+          "item": "allthemodium:soul_log_2"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+        "chance": 0.01,
+        "output": {
+          "item": "allthemodium:soul_sapling"
+        }
+      }
+    ]
+  }

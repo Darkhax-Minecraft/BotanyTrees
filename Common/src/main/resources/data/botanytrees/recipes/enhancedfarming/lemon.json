@@ -1,0 +1,45 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "enhancedfarming:lemon_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "enhancedfarming:lemon_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "enhancedfarming:lemon_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "minecraft:oak_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+        "chance": 0.20,
+        "output": {
+          "item": "enhancedfarming:lemon"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+        "chance": 0.20,
+        "output": {
+          "item": "enhancedfarming:lemon_sapling"
+        }
+      }
+    ]
+  }
