@@ -12,7 +12,8 @@
       "item": "ore_tree:redstone_tree_sapling"
     },
     "categories": [
-      "redstone_ore"
+      "redstone_ore",
+      "deepslate_redstone_ore"
     ],
     "growthTicks": 2400,
     "display": {

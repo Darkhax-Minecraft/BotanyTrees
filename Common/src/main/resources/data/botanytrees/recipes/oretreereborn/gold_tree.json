@@ -12,7 +12,9 @@
       "item": "ore_tree:gold_tree_sapling"
     },
     "categories": [
-      "gold_ore"
+      "gold_ore",
+      "deepslate_gold_ore",
+      "nether_gold_ore"
     ],
     "growthTicks": 2400,
     "display": {

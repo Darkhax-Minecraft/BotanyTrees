@@ -12,7 +12,8 @@
       "item": "ore_tree:copper_tree_sapling"
     },
     "categories": [
-      "copper_ore"
+      "copper_ore",
+      "deepslate_copper_ore"
     ],
     "growthTicks": 2400,
     "display": {
