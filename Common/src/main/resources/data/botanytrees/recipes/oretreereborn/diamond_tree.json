@@ -12,7 +12,8 @@
       "item": "ore_tree:diamond_tree_sapling"
     },
     "categories": [
-      "diamond_ore"
+      "diamond_ore",
+      "deepslate_diamond_ore"
     ],
     "growthTicks": 2400,
     "display": {

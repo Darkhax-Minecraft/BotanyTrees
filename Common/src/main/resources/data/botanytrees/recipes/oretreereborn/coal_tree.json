@@ -12,7 +12,8 @@
       "item": "ore_tree:coal_tree_sapling"
     },
     "categories": [
-      "coal_ore"
+      "coal_ore",
+      "deepslate_coal_ore"
     ],
     "growthTicks": 2400,
     "display": {

@@ -12,7 +12,8 @@
       "item": "ore_tree:iron_tree_sapling"
     },
     "categories": [
-      "iron_ore"
+      "iron_ore",
+      "deepslate_iron_ore"
     ],
     "growthTicks": 2400,
     "display": {

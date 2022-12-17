@@ -12,7 +12,8 @@
       "item": "ore_tree:emerald_tree_sapling"
     },
     "categories": [
-      "emerald_ore"
+      "emerald_ore",
+      "deepslate_emerald_ore"
     ],
     "growthTicks": 2400,
     "display": {
