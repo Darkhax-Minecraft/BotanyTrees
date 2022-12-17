@@ -1,0 +1,54 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "ore_tree:emerald_tree_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "ore_tree:emerald_tree_sapling"
+    },
+    "categories": [
+      "emerald_ore",
+      "deepslate_emerald_ore"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "ore_tree:emerald_tree_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "ore_tree:emerald_tree_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "minecraft:apple"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+      },
+      {
+        "chance": 0.01,
+        "output": {
+          "item": "ore_tree:emerald_tree_sapling"
+        }
+      }
+    ]
+  }
