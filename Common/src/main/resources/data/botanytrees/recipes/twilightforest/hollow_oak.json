@@ -1,0 +1,55 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "twilightforest:hollow_oak_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "twilightforest:hollow_oak_sapling"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 6000,
+  "display": {
+    "block": "twilightforest:hollow_oak_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "twilightforest:twilight_oak_log"
+      },
+      "minRolls": 8,
+      "maxRolls": 16
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "twilightforest:liveroot"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.30,
+      "output": {
+        "item": "twilightforest:twilight_oak_sapling"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    }
+  ]
+}
