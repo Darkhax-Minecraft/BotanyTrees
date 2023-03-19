@@ -20,8 +20,6 @@ dependencies {
 
     modImplementation "net.darkhax.bookshelf:Bookshelf-Fabric-${minecraft_version}:${bookshelf_version}"
     modImplementation "net.darkhax.botanypots:BotanyPots-Fabric-${minecraft_version}:${botanypots_version}"
-    modCompileOnlyApi "mezz.jei:jei-${minecraft_version}-fabric-api:${jei_version}"
-    modRuntimeOnly "mezz.jei:jei-${minecraft_version}-fabric:${jei_version}"
 
     implementation project(":Common")
 }
