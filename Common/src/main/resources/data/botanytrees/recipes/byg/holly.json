@@ -38,7 +38,7 @@
     {
       "chance": 0.20,
       "output": {
-        "item": "byg:holly_berries"
+        "item": "minecraft:sweet_berries"
       },
       "minRolls": 1,
       "maxRolls": 2
