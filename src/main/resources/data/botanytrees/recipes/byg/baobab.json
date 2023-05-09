@@ -30,6 +30,14 @@
             "maxRolls": 1
         },
         {
+            "chance": 0.15,
+            "output": {
+                "item": "byg:baobab_fruit"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
             "chance": 0.10,
             "output": {
                 "item": "minecraft:stick"
