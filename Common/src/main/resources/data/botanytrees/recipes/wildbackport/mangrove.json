@@ -1,4 +1,12 @@
 {
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "wildbackport:mangrove_propagule"
+      ]
+    }
+  ],
   "type": "botanypots:crop",
   "seed": {
     "item": "wildbackport:mangrove_propagule"
@@ -13,7 +21,7 @@
   },
   "drops": [
     {
-      "chance": 1.00,
+      "chance": 1,
       "output": {
         "item": "wildbackport:mangrove_log"
       },
@@ -29,7 +37,7 @@
       "maxRolls": 2
     },
     {
-      "chance": 0.15,
+      "chance": 0.05,
       "output": {
         "item": "wildbackport:mangrove_propagule"
       }
