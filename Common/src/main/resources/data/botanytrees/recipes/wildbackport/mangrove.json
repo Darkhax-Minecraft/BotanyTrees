@@ -1,0 +1,46 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "wildbackport:mangrove_propagule"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "wildbackport:mangrove_propagule"
+  },
+  "categories": [
+    "dirt",
+    "water"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "wildbackport:mangrove_propagule"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "wildbackport:mangrove_log"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "wildbackport:mangrove_roots"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "wildbackport:mangrove_propagule"
+      }
+    }
+  ]
+}
