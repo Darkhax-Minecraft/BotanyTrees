@@ -44,7 +44,7 @@
       "maxRolls": 2
     },
     {
-        "chance": 0.01,
+        "chance": 0.15,
         "output": {
           "item": "croptopia:apple_sapling"
         }
