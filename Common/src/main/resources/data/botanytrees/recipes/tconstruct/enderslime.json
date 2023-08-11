@@ -36,7 +36,7 @@
         "maxRolls": 2
       },
       {
-        "chance": 0.05,
+        "chance": 0.15,
         "output": {
           "item": "tconstruct:ender_slime_sapling"
         }

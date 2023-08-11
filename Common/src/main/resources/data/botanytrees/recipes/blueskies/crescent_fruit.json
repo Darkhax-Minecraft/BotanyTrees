@@ -44,7 +44,7 @@
         "maxRolls": 2
       },
       {
-        "chance": 0.01,
+        "chance": 0.15,
         "output": {
           "item": "blue_skies:crescent_fruit_sapling"
         }

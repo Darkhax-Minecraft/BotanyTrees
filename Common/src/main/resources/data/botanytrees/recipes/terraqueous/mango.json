@@ -44,7 +44,7 @@
         "maxRolls": 4
       },
       {
-        "chance": 0.01,
+        "chance": 0.15,
         "output": {
           "item": "terraqueous:mango_sapling"
         }

@@ -53,7 +53,7 @@
         "maxRolls": 2
       },
       {
-        "chance": 0.01,
+        "chance": 0.15,
         "output": {
           "item": "allthemodium:ancient_sapling"
         }

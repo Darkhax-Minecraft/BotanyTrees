@@ -28,7 +28,7 @@
         "maxRolls": 2
     },
     {
-        "chance": 0.01,
+        "chance": 0.15,
         "output": {
           "item": "terrestria:japanese_maple_shrub_sapling"
         }
