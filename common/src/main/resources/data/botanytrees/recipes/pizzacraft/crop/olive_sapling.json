@@ -1,0 +1,53 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "pizzacraft:olive_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "pizzacraft:olive_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "pizzacraft:olive_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "pizzacraft:olive_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "pizzacraft:olive"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.001,
+        "output": {
+          "item": "pizzacraft:olive_sapling"
+        }
+      }
+    ]
+  }
