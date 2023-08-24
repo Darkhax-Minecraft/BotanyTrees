@@ -1,0 +1,37 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "betterend:helix_tree_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "betterend:helix_tree_sapling"
+  },
+  "categories": [
+    "amber_moss"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "betterend:helix_tree_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "betterend:helix_tree_log"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "betterend:helix_tree_sapling"
+      }
+    }
+  ]
+}
