@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "dynamictrees:azalea_seed"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "dynamictrees:azalea_seed"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "minecraft:azalea"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "minecraft:oak_log"
+      }
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "dynamictrees:azalea_seed"
+      }
+    }
+  ]
+}
