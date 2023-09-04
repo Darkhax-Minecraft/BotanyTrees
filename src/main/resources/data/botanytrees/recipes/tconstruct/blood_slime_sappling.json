@@ -24,18 +24,26 @@
         {
             "chance": 0.50,
             "output": {
-                "item": "tconstruct:blood_slime_ball"
+                "item": "tconstruct:ichor_slime_ball"
             },
             "minRolls": 1,
             "maxRolls": 1
         },
         {
-            "chance": 0.1,
+            "chance": 0.10,
             "output": {
-                "item": "tconstruct:blood_slime_ball"
+                "item": "tconstruct:ichor_slime_ball"
             },
             "minRolls": 1,
             "maxRolls": 2
+        },
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "tconstruct:bloodshroom_log"
+            },
+            "minRolls": 2,
+            "maxRolls": 4
         },
         {
             "chance": 0.05,
