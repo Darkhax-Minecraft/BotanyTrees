@@ -1,0 +1,31 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "byg:flowering_indigo_jacaranda_bush"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "byg:flowering_indigo_jacaranda_bush"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "byg:flowering_indigo_jacaranda_bush"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "byg:flowering_indigo_jacaranda_bush"
+      },
+      "minRolls": 1,
+      "maxRolls": 3
+    }
+  ]
+}
