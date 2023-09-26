@@ -1,1 +1,46 @@
-{"bookshelf:load_conditions":[{"type":"bookshelf:item_exists","values":["hexerei:witch_hazel_sapling","hexerei:witch_hazel_log"]}],"type":"botanypots:crop","seed":{"item":"hexerei:witch_hazel_sapling"},"categories":["dirt"],"growthTicks":2400,"display":{"block":"hexerei:witch_hazel_sapling"},"drops":[{"chance":1,"output":{"item":"hexerei:witch_hazel_log"},"minRolls":2,"maxRolls":4},{"chance":0.1,"output":{"item":"minecraft:stick"},"minRolls":1,"maxRolls":2},{"chance":0.15,"output":{"item":"hexerei:witch_hazel_sapling"}}]}
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "hexerei:witch_hazel_sapling",
+        "hexerei:witch_hazel_log"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "hexerei:witch_hazel_sapling"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "hexerei:witch_hazel_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "hexerei:witch_hazel_log"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "hexerei:witch_hazel_sapling"
+      }
+    }
+  ]
+}
