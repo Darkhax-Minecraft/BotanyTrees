@@ -1,0 +1,43 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "thermal:rubberwood_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "thermal:rubberwood_sapling"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "thermal:rubberwood_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "thermal:rubberwood_log"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "thermal:rubberwood_sapling"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "item": "thermal:rubber"
+      }
+    }
+  ]
+}
