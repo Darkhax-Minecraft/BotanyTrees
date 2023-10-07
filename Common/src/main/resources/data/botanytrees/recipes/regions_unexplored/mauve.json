@@ -1,0 +1,45 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "regions_unexplored:mauve_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "regions_unexplored:mauve_sapling"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "regions_unexplored:mauve_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "regions_unexplored:mauve_log"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 3
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "regions_unexplored:mauve_sapling"
+      }
+    }
+  ]
+}
