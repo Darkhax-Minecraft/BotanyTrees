@@ -12,7 +12,9 @@
     "item": "regions_unexplored:sculkwood_sapling"
   },
   "categories": [
-    "dirt"
+    "dirt",
+    "nylium",
+    "moss"
   ],
   "growthTicks": 2400,
   "display": {
