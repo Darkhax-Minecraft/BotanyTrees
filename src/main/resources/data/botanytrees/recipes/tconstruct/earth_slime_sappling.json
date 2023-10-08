@@ -20,7 +20,7 @@
     "display": {
       "block": "tconstruct:earth_slime_sapling"
     },
-    "drops": [
+    "results": [
       {
         "chance": 1.00,
         "output": {
