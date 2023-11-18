@@ -3,34 +3,26 @@
       {
         "type": "bookshelf:item_exists",
         "values": [
-          "forbidden_arcanus:growing_edelwood"
+          "ic2:rubber_sapling"
         ]
       }
     ],
     "type": "botanypots:crop",
     "seed": {
-      "item": "forbidden_arcanus:growing_edelwood"
+      "item": "ic2:rubber_sapling"
     },
     "categories": [
       "dirt"
     ],
     "growthTicks": 2400,
     "display": {
-      "block": "forbidden_arcanus:growing_edelwood"
+      "block": "ic2:rubber_sapling"
     },
     "drops": [
       {
         "chance": 0.50,
         "output": {
-          "item": "forbidden_arcanus:edelwood_log"
-        },
-        "minRolls": 1,
-        "maxRolls": 2
-      },
-      {
-        "chance": 0.25,
-        "output": {
-          "item": "forbidden_arcanus:edelwood_branch"
+          "item": "ic2:rubber_wood"
         },
         "minRolls": 1,
         "maxRolls": 2
@@ -38,7 +30,7 @@
     {
         "chance": 0.15,
         "output": {
-          "item": "forbidden_arcanus:growing_edelwood"
+          "item": "ic2:rubber_sapling"
         }
       }
     ]

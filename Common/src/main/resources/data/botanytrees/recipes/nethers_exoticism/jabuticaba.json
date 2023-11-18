@@ -1,0 +1,45 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "nethers_exoticism:jaboticaba_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "nethers_exoticism:jaboticaba_sapling"
+    },
+    "categories": [
+      "blackstone"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "nethers_exoticism:jaboticaba_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "nethers_exoticism:jaboticaba_branch"
+        },
+        "minRolls": 3,
+        "maxRolls": 4
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "nethers_exoticism:jaboticaba"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "nethers_exoticism:jaboticaba_sapling"
+        }
+      }
+    ]
+  }

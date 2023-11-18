@@ -1,0 +1,45 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "occultism:otherworld_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "occultism:otherworld_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "occultism:otherworld_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "occultism:otherworld_log"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "occultism:otherworld_sapling"
+        }
+      }
+    ]
+  }

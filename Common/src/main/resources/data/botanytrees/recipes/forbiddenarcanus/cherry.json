@@ -1,0 +1,69 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "forbidden_arcanus:cherry_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "forbidden_arcanus:cherry_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "forbidden_arcanus:cherry_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "forbidden_arcanus:cherry_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+      },
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "forbidden_arcanus:thin_cherry_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+      },
+      {
+        "chance": 0.25,
+        "output": {
+          "item": "minecraft:stick"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "forbidden_arcanus:cherry_flower_vines"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+      },
+      {
+      "chance": 0.25,
+      "output": {
+        "item": "forbidden_arcanus:cherry_leaf_carpet"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.15,
+        "output": {
+          "item": "forbidden_arcanus:cherry_sapling"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,54 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "deep_aether:sunroot_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "deep_aether:sunroot_sapling"
+    },
+    "categories": [
+      "dirt",
+      "aether_dirt"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "deep_aether:sunroot_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "deep_aether:sunroot_log"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "aether:skyroot_stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "deep_aether:sunroot_hanger"
+      },
+      "minRolls": 2,
+      "maxRolls": 3
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "deep_aether:sunroot_sapling"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,46 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "deep_aether:cruderoot_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "deep_aether:cruderoot_sapling"
+    },
+    "categories": [
+      "dirt",
+      "aether_dirt"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "deep_aether:cruderoot_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "deep_aether:cruderoot_log"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "aether:skyroot_stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "deep_aether:cruderoot_sapling"
+        }
+      }
+    ]
+  }

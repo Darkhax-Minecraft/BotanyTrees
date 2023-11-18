@@ -1,0 +1,45 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "regions_unexplored:kapok_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "regions_unexplored:kapok_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "regions_unexplored:kapok_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "regions_unexplored:kapok_log"
+        },
+        "minRolls": 4,
+        "maxRolls": 6
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 3,
+      "maxRolls": 4
+    },
+    {
+        "chance": 0.05,
+        "output": {
+          "item": "regions_unexplored:kapok_sapling"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,78 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "aether_redux:gilded_oak_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "aether_redux:gilded_oak_sapling"
+    },
+    "categories": [
+      "dirt",
+      "aether_dirt"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "aether_redux:gilded_oak_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "aether:skyroot_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 3
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "aether:skyroot_stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "aether_redux:gilded_vines"
+      },
+      "minRolls": 4,
+      "maxRolls": 6
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "aether_redux:gilded_leaf_pile"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "aether:skyroot_stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    },
+    {
+      "chance": 0.02,
+      "output": {
+        "item": "aether:golden_skyroot_log"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "aether_redux:gilded_oak_sapling"
+        }
+      }
+    ]
+  }

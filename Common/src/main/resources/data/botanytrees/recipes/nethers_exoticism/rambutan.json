@@ -1,0 +1,46 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "nethers_exoticism:ramboutan_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "nethers_exoticism:ramboutan_sapling"
+    },
+    "categories": [
+      "nylium",
+      "netherrack"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "nethers_exoticism:ramboutan_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "nethers_exoticism:ramboutan_log"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "nethers_exoticism:ramboutan"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "nethers_exoticism:ramboutan_sapling"
+        }
+      }
+    ]
+  }
