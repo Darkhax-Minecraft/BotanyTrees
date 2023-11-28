@@ -1,0 +1,54 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "aether_redux:flowering_fieldsprout_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "aether_redux:flowering_fieldsprout_sapling"
+    },
+    "categories": [
+      "dirt",
+      "aether_dirt"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "aether_redux:flowering_fieldsprout_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "aether_redux:fieldsprout_log"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "aether:skyroot_stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "aether_redux:fieldsprout_petals"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "aether_redux:flowering_fieldsprout_sapling"
+        }
+      }
+    ]
+  }

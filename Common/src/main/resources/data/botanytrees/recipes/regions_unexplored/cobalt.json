@@ -1,0 +1,43 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "regions_unexplored:cobalt_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "regions_unexplored:cobalt_sapling"
+    },
+    "categories": [
+      "nether",
+      "mycotoxic_nylium",
+      "glistering_nylium",
+      "cobalt_nylium",
+      "warped_nylium",
+      "brimsprout_nylium",
+      "crimson_nylium"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "regions_unexplored:cobalt_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "regions_unexplored:cobalt_log"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "regions_unexplored:cobalt_sapling"
+        }
+      }
+    ]
+  }

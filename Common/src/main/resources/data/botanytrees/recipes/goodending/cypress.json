@@ -1,0 +1,45 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "goodending:cypress_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "goodending:cypress_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "goodending:cypress_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "goodending:cypress_log"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "goodending:cypress_sapling"
+        }
+      }
+    ]
+  }

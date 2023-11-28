@@ -1,0 +1,38 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "regions_unexplored:bamboo_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "regions_unexplored:bamboo_sapling"
+    },
+    "categories": [
+      "dirt",
+      "podzol"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "regions_unexplored:bamboo_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "regions_unexplored:bamboo_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+        "chance": 0.15,
+        "output": {
+          "item": "regions_unexplored:bamboo_sapling"
+        }
+      }
+    ]
+  }

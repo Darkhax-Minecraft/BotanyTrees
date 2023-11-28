@@ -1,0 +1,37 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "pyromancer:pyrowood_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "pyromancer:pyrowood_sapling"
+    },
+    "categories": [
+      "pyromossed_netherrack"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "pyromancer:pyrowood_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "pyromancer:pyrowood_log"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "pyromancer:pyrowood_sapling"
+        }
+      }
+    ]
+  }

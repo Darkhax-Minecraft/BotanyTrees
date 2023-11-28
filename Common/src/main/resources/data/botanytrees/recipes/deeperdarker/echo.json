@@ -3,42 +3,50 @@
       {
         "type": "bookshelf:item_exists",
         "values": [
-          "forbidden_arcanus:growing_edelwood"
+          "deeperdarker:echo_sapling"
         ]
       }
     ],
     "type": "botanypots:crop",
     "seed": {
-      "item": "forbidden_arcanus:growing_edelwood"
+      "item": "deeperdarker:echo_sapling"
     },
     "categories": [
       "dirt"
     ],
     "growthTicks": 2400,
     "display": {
-      "block": "forbidden_arcanus:growing_edelwood"
+      "block": "deeperdarker:echo_sapling"
     },
     "drops": [
       {
-        "chance": 0.50,
+        "chance": 1.00,
         "output": {
-          "item": "forbidden_arcanus:edelwood_log"
+          "item": "deeperdarker:echo_log"
         },
-        "minRolls": 1,
-        "maxRolls": 2
+        "minRolls": 2,
+        "maxRolls": 4
       },
       {
         "chance": 0.25,
         "output": {
-          "item": "forbidden_arcanus:edelwood_branch"
+          "item": "minecraft:stick"
         },
         "minRolls": 1,
         "maxRolls": 2
     },
     {
+        "chance": 0.10,
+        "output": {
+          "item": "deeperdarker:sculk_gleam"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
         "chance": 0.15,
         "output": {
-          "item": "forbidden_arcanus:growing_edelwood"
+          "item": "deeperdarker:echo_sapling"
         }
       }
     ]

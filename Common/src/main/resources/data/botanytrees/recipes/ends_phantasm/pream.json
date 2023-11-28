@@ -1,0 +1,37 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "phantasm:pream_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "phantasm:pream_sapling"
+    },
+    "categories": [
+      "end_stone"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "phantasm:pream_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "phantasm:pream_log"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "phantasm:pream_sapling"
+        }
+      }
+    ]
+  }

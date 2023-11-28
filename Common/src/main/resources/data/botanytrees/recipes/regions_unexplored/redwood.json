@@ -1,0 +1,45 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "regions_unexplored:redwood_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "regions_unexplored:redwood_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "regions_unexplored:redwood_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "regions_unexplored:redwood_log"
+        },
+        "minRolls": 3,
+        "maxRolls": 5
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 3,
+      "maxRolls": 5
+    },
+    {
+        "chance": 0.15,
+        "output": {
+          "item": "regions_unexplored:redwood_sapling"
+        }
+      }
+    ]
+  }

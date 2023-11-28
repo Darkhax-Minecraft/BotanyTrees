@@ -1,0 +1,47 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "regions_unexplored:brimwood_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "regions_unexplored:brimwood_sapling"
+    },
+    "categories": [
+      "dirt",
+      "nether",
+      "nylium"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "regions_unexplored:brimwood_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "regions_unexplored:brimwood_log"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "regions_unexplored:brimwood_log_magma"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.05,
+        "output": {
+          "item": "regions_unexplored:brimwood_sapling"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,46 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "aether:golden_oak_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "aether:golden_oak_sapling"
+    },
+    "categories": [
+      "dirt",
+      "aether_dirt"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "aether:golden_oak_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "aether:golden_oak_log"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "aether:skyroot_stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "aether:golden_oak_sapling"
+        }
+      }
+    ]
+  }
