@@ -1,0 +1,45 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "tropicraft:tea_mangrove_propagule"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "tropicraft:tea_mangrove_propagule"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "tropicraft:tea_mangrove_propagule"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "tropicraft:light_mangrove_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "tropicraft:light_mangrove_roots"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.15,
+        "output": {
+          "item": "tropicraft:tea_mangrove_propagule"
+        }
+      }
+    ]
+  }
