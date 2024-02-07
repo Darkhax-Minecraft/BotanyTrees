@@ -22,7 +22,7 @@
       {
         "chance": 1.00,
         "output": {
-          "item": "minecraft:oak_log"
+          "item": "minecraft:dark_oak_log"
         },
         "minRolls": 2,
         "maxRolls": 4
