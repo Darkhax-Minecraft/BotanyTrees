@@ -1,0 +1,45 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "tropicraft:mahogany_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "tropicraft:mahogany_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "tropicraft:mahogany_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "tropicraft:mahogany_log"
+        },
+        "minRolls": 3,
+        "maxRolls": 5
+      },
+      {
+        "chance": 0.25,
+        "output": {
+          "item": "minecraft:stick"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+        "chance": 0.15,
+        "output": {
+          "item": "tropicraft:mahogany_sapling"
+        }
+      }
+    ]
+  }

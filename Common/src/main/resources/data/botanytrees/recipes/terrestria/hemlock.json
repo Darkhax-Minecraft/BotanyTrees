@@ -3,42 +3,34 @@
       {
         "type": "bookshelf:item_exists",
         "values": [
-          "forbidden_arcanus:mysterywood_sapling"
+          "terrestria:hemlock_sapling"
         ]
       }
     ],
     "type": "botanypots:crop",
     "seed": {
-      "item": "forbidden_arcanus:mysterywood_sapling"
+      "item": "terrestria:hemlock_sapling"
     },
     "categories": [
       "dirt"
     ],
     "growthTicks": 2400,
     "display": {
-      "block": "forbidden_arcanus:mysterywood_sapling"
+      "block": "terrestria:hemlock_sapling"
     },
     "drops": [
       {
         "chance": 1.00,
         "output": {
-          "item": "forbidden_arcanus:mysterywood_log"
+          "item": "terrestria:hemlock_log"
         },
         "minRolls": 2,
         "maxRolls": 4
-      },
-      {
-        "chance": 0.25,
-        "output": {
-          "item": "minecraft:stick"
-        },
-        "minRolls": 1,
-        "maxRolls": 2
     },
     {
-      "chance": 0.005,
+      "chance": 0.25,
       "output": {
-        "item": "minecraft:gold_nugget"
+        "item": "minecraft:stick"
       },
       "minRolls": 1,
       "maxRolls": 2
@@ -46,7 +38,7 @@
     {
         "chance": 0.15,
         "output": {
-          "item": "forbidden_arcanus:mysterywood_sapling"
+          "item": "terrestria:hemlock_sapling"
         }
       }
     ]

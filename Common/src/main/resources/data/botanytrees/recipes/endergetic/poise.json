@@ -1,0 +1,53 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "endergetic:tall_poise_bush"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "endergetic:tall_poise_bush"
+    },
+    "categories": [
+      "poismoss"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "endergetic:tall_poise_bush"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "endergetic:poise_stem"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "endergetic:poise_cluster"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "endergetic:glowing_poise_stem"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "endergetic:tall_poise_bush"
+        }
+      }
+    ]
+  }

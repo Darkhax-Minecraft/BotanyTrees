@@ -1,0 +1,37 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "terrestria:saguaro_cactus_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "terrestria:saguaro_cactus_sapling"
+    },
+    "categories": [
+      "sand"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "terrestria:saguaro_cactus_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "terrestria:saguaro_cactus"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+        "chance": 0.15,
+        "output": {
+          "item": "terrestria:saguaro_cactus_sapling"
+        }
+      }
+    ]
+  }

@@ -3,34 +3,26 @@
       {
         "type": "bookshelf:item_exists",
         "values": [
-          "forbidden_arcanus:cherrywood_sapling"
+          "tropicraft:lemon_sapling"
         ]
       }
     ],
     "type": "botanypots:crop",
     "seed": {
-      "item": "forbidden_arcanus:cherrywood_sapling"
+      "item": "tropicraft:lemon_sapling"
     },
     "categories": [
       "dirt"
     ],
     "growthTicks": 2400,
     "display": {
-      "block": "forbidden_arcanus:cherrywood_sapling"
+      "block": "tropicraft:lemon_sapling"
     },
     "drops": [
       {
         "chance": 1.00,
         "output": {
-          "item": "forbidden_arcanus:cherrywood_log"
-        },
-        "minRolls": 2,
-        "maxRolls": 4
-      },
-      {
-        "chance": 1.00,
-        "output": {
-          "item": "forbidden_arcanus:thin_cherrywood_log"
+          "item": "minecraft:jungle_log"
         },
         "minRolls": 2,
         "maxRolls": 4
@@ -44,17 +36,9 @@
         "maxRolls": 2
     },
     {
-        "chance": 0.10,
-        "output": {
-          "item": "forbidden_arcanus:cherry_flower_vines"
-        },
-        "minRolls": 2,
-        "maxRolls": 4
-      },
-      {
       "chance": 0.25,
       "output": {
-        "item": "forbidden_arcanus:cherrywood_leaf_carpet"
+        "item": "tropicraft:lemon"
       },
       "minRolls": 1,
       "maxRolls": 2
@@ -62,7 +46,7 @@
     {
         "chance": 0.15,
         "output": {
-          "item": "forbidden_arcanus:cherrywood_sapling"
+          "item": "tropicraft:lemon_sapling"
         }
       }
     ]

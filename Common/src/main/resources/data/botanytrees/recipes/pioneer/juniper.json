@@ -1,0 +1,53 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "pioneer:juniper_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "pioneer:juniper_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "pioneer:juniper_sapling"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "pioneer:juniper_log"
+        },
+        "minRolls": 2,
+        "maxRolls": 4
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "pioneer:juniper_berries"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.15,
+        "output": {
+          "item": "pioneer:juniper_sapling"
+        }
+      }
+    ]
+  }
