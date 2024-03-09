@@ -1,0 +1,45 @@
+{
+    "type": "botanypots:crop",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "dynamictrees"
+        }
+    ],
+    "seed": {
+        "item": "dynamictrees:acacia_seed"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "block": "minecraft:acacia_sapling"
+    },
+    "results": [
+        {
+            "chance": 1,
+            "output": {
+                "item": "minecraft:acacia_log"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.1,
+            "output": {
+                "item": "minecraft:stick"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "dynamictrees:acacia_seed"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        }
+    ]
+}

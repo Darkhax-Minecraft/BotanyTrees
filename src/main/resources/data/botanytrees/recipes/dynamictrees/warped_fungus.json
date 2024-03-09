@@ -1,0 +1,53 @@
+{
+    "type": "botanypots:crop",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "dynamictrees"
+        }
+    ],
+    "seed": {
+        "item": "dynamictrees:warped_seed"
+    },
+    "categories": [
+        "warped_nylium"
+    ],
+    "growthTicks": 1600,
+    "display": {
+        "block": "dynamictrees:warped_sapling"
+    },
+    "results": [
+        {
+            "chance": 1,
+            "output": {
+                "item": "dynamictrees:warped_seed"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.15,
+            "output": {
+                "item": "minecraft:warped_wart_block"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.15,
+            "output": {
+                "item": "minecraft:warped_stem"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "minecraft:shroomlight"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        }
+    ]
+}
