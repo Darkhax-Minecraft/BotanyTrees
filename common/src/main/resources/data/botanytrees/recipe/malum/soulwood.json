@@ -1,0 +1,65 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["malum:soulwood_sapling"]
+    }
+  ],
+  "type": "botanypots:crop",
+  "input": {
+    "item": "malum:soulwood_sapling"
+  },
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "grow_time": 2400,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "malum:soulwood_sapling"
+  },
+  "drops": [
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "malum:soulwood_log"
+          },
+          "chance": 0.33,
+          "minRolls": 2,
+          "maxRolls": 4
+        },
+        {
+          "result": {
+            "id": "minecraft:stick"
+          },
+          "chance": 0.20,
+          "minRolls": 1,
+          "maxRolls": 2
+        },
+        {
+          "result": {
+            "id": "malum:exposed_soulwood_log"
+          },
+          "chance": 0.33,
+          "minRolls": 1,
+          "maxRolls": 2
+        },
+        {
+          "result": {
+            "id": "malum:blighted_gunk"
+          },
+          "chance": 0.25,
+          "minRolls": 1,
+          "maxRolls": 2
+        },
+        {
+          "result": {
+            "id": "malum:soulwood_sapling"
+          },
+          "chance": 0.01
+        }
+      ]
+    }
+  ]
+}
