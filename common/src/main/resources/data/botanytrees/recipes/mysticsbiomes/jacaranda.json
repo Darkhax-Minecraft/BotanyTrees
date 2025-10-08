@@ -1,0 +1,46 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "mysticsbiomes:jacaranda_sapling",
+        "mysticsbiomes:jacaranda_log"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "mysticsbiomes:jacaranda_sapling"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "mysticsbiomes:jacaranda_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "mysticsbiomes:jacaranda_log"
+      },
+      "minRolls": 2,
+      "maxRolls": 6
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "mysticsbiomes:jacaranda_sapling"
+      }
+    }
+  ]
+}
