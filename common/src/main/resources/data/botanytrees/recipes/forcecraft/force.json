@@ -1,0 +1,55 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "forcecraft:force_sapling",
+        "forcecraft:force_log",
+        "forcecraft:force_nugget"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "forcecraft:force_sapling"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "forcecraft:force_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "forcecraft:force_log"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.14,
+      "output": {
+        "item": "forcecraft:force_nugget"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+      },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "forcecraft:force_sapling"
+      }
+    }
+  ]
+}
