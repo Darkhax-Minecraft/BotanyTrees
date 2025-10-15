@@ -6,7 +6,7 @@
   "drops": [
     {
       "type": "botanypots:loot_table",
-      "table_id": "botanytrees:tree_drops/ars_nouveau/archwood_greesn"
+      "table_id": "botanytrees:tree_drops/ars_nouveau/archwood_green"
     }
   ]
 }
