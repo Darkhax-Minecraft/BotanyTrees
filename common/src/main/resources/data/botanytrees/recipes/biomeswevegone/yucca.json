@@ -12,7 +12,7 @@
       "item": "biomeswevegone:yucca_sapling"
     },
     "categories": [
-      "dirt"
+      "sand"
     ],
     "growthTicks": 2400,
     "display": {
@@ -22,7 +22,7 @@
       {
         "chance": 1.00,
         "output": {
-          "item": "biomeswevegone:yucca_log"
+          "item": "biomeswevegone:oak_log"
         },
         "minRolls": 2,
         "maxRolls": 4

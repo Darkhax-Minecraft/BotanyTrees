@@ -22,7 +22,7 @@
       {
         "chance": 1.00,
         "output": {
-          "item": "biomeswevegone:white_sakura_log"
+          "item": "biomeswevegone:sakura_log"
         },
         "minRolls": 2,
         "maxRolls": 4
