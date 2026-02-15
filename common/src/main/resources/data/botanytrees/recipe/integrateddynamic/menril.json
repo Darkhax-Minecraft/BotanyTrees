@@ -1,0 +1,57 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": ["integrateddynamics:menril_sapling"]
+    }
+  ],
+  "type": "botanypots:crop",
+  "input": {
+    "item": "integrateddynamics:menril_sapling"
+  },
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "grow_time": 2400,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "integrateddynamics:menril_sapling"
+  },
+  "drops": [
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "integrateddynamics:menril_log"
+          },
+          "chance": 1.00,
+          "minRolls": 2,
+          "maxRolls": 4
+        },
+        {
+          "result": {
+            "id": "minecraft:stick"
+          },
+          "chance": 0.25,
+          "minRolls": 1,
+          "maxRolls": 2
+        },
+        {
+          "result": {
+            "id": "integrateddynamics:menril_berries"
+          },
+          "chance": 0.25,
+          "minRolls": 1,
+          "maxRolls": 2
+        },
+        {
+          "result": {
+            "id": "integrateddynamics:menril_sapling"
+          },
+          "chance": 0.01
+        }
+      ]
+    }
+  ]
+}
