@@ -1,0 +1,49 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "nethers_exoticism:bouddha_s_hand_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "nethers_exoticism:bouddha_s_hand_sapling"
+    },
+    "categories": [
+      "soul_sand"
+    ],
+    "growthTicks": 2750,
+    "display": {
+      "block": "nethers_exoticism:bouddha_s_hand_sapling"
+    },
+    "drops": [
+      {
+        "chance": 0.04,
+        "output": {
+          "item": "nethers_exoticism:bone_column"
+        }
+    },
+    {
+      "chance": 0.01,
+      "output": {
+        "item": "minecraft:bone_block"
+      }
+    },
+    {
+      "chance": 0.20,
+      "output": {
+        "item": "nethers_exoticism:bouddha_s_hand"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+        "chance": 0.10,
+        "output": {
+          "item": "nethers_exoticism:bouddha_s_hand_sapling"
+        }
+      }
+    ]
+  }

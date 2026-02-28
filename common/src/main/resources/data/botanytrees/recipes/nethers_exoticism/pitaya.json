@@ -3,34 +3,35 @@
       {
         "type": "bookshelf:item_exists",
         "values": [
-          "nethers_exoticism:jaboticaba_sapling"
+          "nethers_exoticism:pitaya_sapling"
         ]
       }
     ],
     "type": "botanypots:crop",
     "seed": {
-      "item": "nethers_exoticism:jaboticaba_sapling"
+      "item": "nethers_exoticism:pitaya_sapling"
     },
     "categories": [
-      "blackstone"
+      "nylium",
+      "netherrack"
     ],
     "growthTicks": 2750,
     "display": {
-      "block": "nethers_exoticism:jaboticaba_sapling"
+      "block": "nethers_exoticism:pitaya_sapling"
     },
     "drops": [
       {
         "chance": 1.00,
         "output": {
-          "item": "nethers_exoticism:jaboticaba_branch_empty"
+          "item": "nethers_exoticism:pitaya_stem"
         },
-        "minRolls": 3,
-        "maxRolls": 4
+        "minRolls": 1,
+        "maxRolls": 2
     },
     {
       "chance": 0.20,
       "output": {
-        "item": "nethers_exoticism:jaboticaba"
+        "item": "nethers_exoticism:pitaya"
       },
       "minRolls": 1,
       "maxRolls": 2
@@ -38,13 +39,7 @@
     {
         "chance": 0.10,
         "output": {
-          "item": "nethers_exoticism:jaboticaba_sapling"
-        }
-    },
-    {
-      "chance": 0.01,
-      "output": {
-        "item": "nethers_exoticism:jaboticaba_branch"
+          "item": "nethers_exoticism:pitaya_sapling"
         }
       }
     ]
