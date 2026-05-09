@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [ "biomeswevegone:rainbow_eucalyptus_sapling" ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "biomeswevegone:rainbow_eucalyptus_sapling"
+  },
+  "categories": [ "dirt" ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "biomeswevegone:rainbow_eucalyptus_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.0,
+      "output": { "item": "biomeswevegone:rainbow_eucalyptus_log" },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.2,
+      "output": { "item": "minecraft:stick" },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.15,
+      "output": { "item": "biomeswevegone:rainbow_eucalyptus_sapling" }
+    }
+  ]
+}

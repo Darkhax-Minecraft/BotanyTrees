@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [ "biomeswevegone:brown_zelkova_sapling" ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "biomeswevegone:brown_zelkova_sapling"
+  },
+  "categories": [ "dirt" ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "biomeswevegone:brown_zelkova_sapling"
+  },
+  "drops": [
+    {
+      "chance": 1.0,
+      "output": { "item": "biomeswevegone:brown_zelkova_log" },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.2,
+      "output": { "item": "minecraft:stick" },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.15,
+      "output": { "item": "biomeswevegone:brown_zelkova_sapling" }
+    }
+  ]
+}
