@@ -1,4 +1,12 @@
 {
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "minecraft:mangrove_propagule"
+      ]
+    }
+  ],
   "type": "minecraft:block",
   "pools": [
     {

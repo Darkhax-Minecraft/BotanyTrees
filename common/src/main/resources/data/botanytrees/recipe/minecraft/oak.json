@@ -1,4 +1,12 @@
 {
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "minecraft:oak_sapling"
+      ]
+    }
+  ],
   "type": "botanypots:block_derived_crop",
   "block": "minecraft:oak_sapling",
   "grow_time": 2400,

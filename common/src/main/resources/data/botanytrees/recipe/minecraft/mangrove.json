@@ -1,4 +1,12 @@
 {
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "minecraft:mangrove_propagule"
+      ]
+    }
+  ],
   "type": "botanypots:block_derived_crop",
   "block": "minecraft:mangrove_propagule",
   "grow_time": 2400,
