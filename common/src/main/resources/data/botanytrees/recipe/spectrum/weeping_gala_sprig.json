@@ -1,0 +1,19 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "spectrum:weeping_gala_sprig"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "spectrum:weeping_gala_sprig",
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanytrees:tree_drops/spectrum/weeping_gala_sprig"
+    }
+  ]
+}
