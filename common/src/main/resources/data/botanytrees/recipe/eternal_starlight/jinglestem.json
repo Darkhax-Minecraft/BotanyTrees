@@ -1,0 +1,25 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "eternal_starlight:jinglestem_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "eternal_starlight:jinglestem_sapling",
+  "soil": {
+    "tag": "botanypots:soil/water"
+  },
+  "render_options": {
+    "offset": [0, -0.30, 0]
+  },
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanytrees:tree_drops/eternal_starlight/jinglestem"
+    }
+  ]
+}
