@@ -1,0 +1,22 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "beachparty:palm_sprout"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "beachparty:palm_sprout",
+  "grow_time": 2400,
+  "soil": {
+    "tag": "botanypots:soil/sand"
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanytrees:tree_drops/beachparty/palm_sprout"
+    }
+  ]
+}
