@@ -1,0 +1,19 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "mysticsbiomes:pink_cherry_blossom_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "mysticsbiomes:pink_cherry_blossom_sapling",
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanytrees:tree_drops/mysticsbiomes/pink_cherry_blossom"
+    }
+  ]
+}
