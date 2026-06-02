@@ -1,0 +1,22 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "allthemodium:demonic_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "allthemodium:demonic_sapling",
+  "grow_time": 2400,
+  "soil": {
+    "tag": "botanypots:soil/nether"
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanytrees:tree_drops/allthemodium/demonic"
+    }
+  ]
+}
