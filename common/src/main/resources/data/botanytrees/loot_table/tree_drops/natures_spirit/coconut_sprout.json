@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "natures_spirit:coconut_sprout",
+          "name": "natures_spirit:coconut_log",
           "functions": [
             {
               "add": false,
@@ -70,7 +70,23 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "natures_spirit:coconut_sprout"
+          "name": "natures_spirit:coconut_leaves"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "name": "natures_spirit:coconut"
         }
       ],
       "rolls": 1.0
