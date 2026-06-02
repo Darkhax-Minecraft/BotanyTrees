@@ -1,0 +1,22 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "biomeswevegone:palo_verde_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "biomeswevegone:palo_verde_sapling",
+  "grow_time": 2400,
+  "soil": {
+    "tag": "botanypots:soil/sand"
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanytrees:tree_drops/biomeswevegone/palo_verde"
+    }
+  ]
+}
